@@ -1,0 +1,8 @@
+.off{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}

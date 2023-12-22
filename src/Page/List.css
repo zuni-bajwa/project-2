@@ -1,0 +1,86 @@
+.first{
+    margin-right: 10px;
+    background-color: palevioletred;
+
+}
+.sec{
+    margin-right: 10px;
+    background-color: palevioletred;
+
+}
+.third{
+    margin-right: 10px;
+   background-color: palevioletred;
+}
+.two{
+    margin-top: 30px;
+}
+.three{
+    margin-top: 30px;
+}
+.pro{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.top{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+       background-color: brown;
+}
+.tops{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: palevioletred
+  
+}
+.rup{
+  color: brown;  
+}
+ 
+  
+.add{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+       background-color: brown;
+
+}
+@media (max-width:570px) {
+    .first{
+        margin-right: 0px;
+    }
+    .sec{
+        margin-right: 0px;
+    }
+    .third{
+        margin-right: 0px;
+    
+   } 
+}
+@media (max-width:950px) {
+    .first{
+        height: 465px;
+    }
+    .sec{
+        height: 465px;
+    }
+    .third{
+        height: 465px;
+    }
+
+}

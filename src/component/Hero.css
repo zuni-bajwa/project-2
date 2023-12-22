@@ -1,0 +1,85 @@
+@media (min-width: 991px) {
+  .nav-link::before{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background-color: #009970;
+      visibility: hidden;
+      transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before, .nav-link.active::before {
+      width: 100%;
+      visibility: visible;
+  }
+   section{
+    padding: 2rem;
+   }
+   .hero{
+    background-position: left;
+   }
+}
+  @media (max-width: 450px) {
+    html{
+font-size: 50%;
+  }
+  }
+  @media (max-width: 991px) {
+    html{
+font-size: 75%;
+  }
+  }
+
+
+section{
+padding: 2rem 9%;
+}
+
+.hero {
+display: flex;
+align-items: center;
+  background: url(/public/ecommerce\ img.avif ) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+}
+.hero .para {
+max-width: 50rem;
+}
+
+
+
+.hero h1 {
+  font-size: 6rem;
+}
+.hero span {
+  font-size: 3rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+.hero p {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+.btn {
+display: inline-block;
+margin-top: 0.5rem;
+border-radius: 2rem;
+padding: 0.5rem 2rem;
+background-color: #00b383;
+color: #fff;
+cursor: pointer;
+font-size: 2rem;
+}
+.btn:hover{
+
+background-color: brown;
+}
+
+
